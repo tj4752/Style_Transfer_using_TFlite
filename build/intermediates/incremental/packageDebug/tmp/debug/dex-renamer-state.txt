@@ -1,0 +1,7 @@
+#Sat Dec 14 01:21:15 IST 2019
+base.0=/home/tj4752/Downloads/tensorflow-style-transfer-android-codelab-start/android/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/tj4752/Downloads/tensorflow-style-transfer-android-codelab-start/android/build/intermediates/transforms/dexMerger/debug/1

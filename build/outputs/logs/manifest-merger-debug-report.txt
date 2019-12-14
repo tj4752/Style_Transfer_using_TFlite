@@ -1,0 +1,68 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:18:1-43:12
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/tj4752/.gradle/caches/transforms-2/files-2.1/2e71809033eb402a27be85cf31c63d24/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:19:5-34
+	xmlns:android
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:23:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:24:22-78
+uses-sdk
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:26:5-47
+INJECTED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:26:5-47
+INJECTED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:26:5-47
+	android:targetSdkVersion
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:26:15-44
+	android:minSdkVersion
+		INJECTED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:26:5-47
+		INJECTED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml
+application
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:28:5-41:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/tj4752/.gradle/caches/transforms-2/files-2.1/2e71809033eb402a27be85cf31c63d24/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/tj4752/.gradle/caches/transforms-2/files-2.1/2e71809033eb402a27be85cf31c63d24/AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:31:9-45
+activity#org.tensorflow.demo.StylizeActivity
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:33:9-40:20
+	android:screenOrientation
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:34:19-55
+	android:label
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:35:19-64
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:33:19-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:38:27-74
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:18:1-43:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/tj4752/AndroidStudioProjects/Style_Transfer_using_TFlite/AndroidManifest.xml:18:1-43:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
